@@ -10,7 +10,7 @@ namespace CarLotSimulator
     {
         public car()
         {
-
+            CarLot.numberOfCars++;
         }
         public car(int year, string make, string model, string engineNoise, string honkNoise, bool isDrivable)
         {
