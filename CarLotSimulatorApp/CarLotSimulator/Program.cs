@@ -19,7 +19,7 @@ namespace CarLotSimulator
             //Set the properties for each of the cars
             //Call each of the methods for each car
 
-            var lot = new CarLot();
+            CarLot lot = new CarLot();
             
             
             var carOne = new car();
@@ -68,7 +68,7 @@ namespace CarLotSimulator
             //Instanciate the a Carlot at the beginning of the program and as you create a car add the car to the list.
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
 
-            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
+            Console.WriteLine($"Number of cars on the lot: {CarLot.numberOfCars}");
 
             foreach (var car in lot.Cars)
             {
